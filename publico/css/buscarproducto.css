@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.productos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.productos-table th, .productos-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.productos-table th {
+    background-color: #f2f2f2;
+}
+
+
+.acciones .edit-button {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+}
+.acciones .edit-button:hover {
+    background-color: rgba(49, 52, 241, 0.4);
+    color: #000;
+}
+
+
+.acciones .delete-button {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.acciones .delete-button:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+    color:#000  
+}

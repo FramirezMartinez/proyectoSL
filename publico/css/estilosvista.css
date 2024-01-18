@@ -1,0 +1,175 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.inline-buttons {
+    display: inline-block; /* Hace que el contenedor sea en línea y permita que los elementos internos estén en la misma línea */
+}
+
+#btnTP, #btnP {
+    color: #fff;
+    background: #007BFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 10px; /* Agrega espacio entre los dos botones */
+}
+
+#btnTP:hover, #btnP:hover {
+    background: #0056b3;
+}
+
+
+#titulotp, #titulo {
+    text-align: center;
+    border-radius: 10px;
+    height: 35px;
+    width: 310px;
+    background-color: rgba(0, 102, 204, 0.2); /* Fondo azul transparente */
+    color: #000;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(231, 226, 226, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.productos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.productos-table th, .productos-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.productos-table th {
+    background-color: #ddd;
+    border:1px solid #f2f2f2;
+}
+
+.acciones .edit-button {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+}
+.acciones .edit-button:hover {
+    background-color: rgba(49, 52, 241, 0.4);
+    color: #000;
+}
+
+.acciones .delete-button {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.acciones .delete-button:hover {
+    background-color: rgba(255, 0, 0, 0.4);
+    color:#000  
+}
+
+
+
+
+/*oculta los formularios */
+.hidden-form {
+    display: none;
+}
+
+
+/* Estilo para el formulario de búsqueda */
+#buscar-form {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilo para el campo de entrada del formulario */
+#buscar-form input {
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilo para el botón de envío del formulario */
+#buscar-form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#buscar-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
